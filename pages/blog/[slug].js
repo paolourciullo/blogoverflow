@@ -23,22 +23,22 @@ export default function PostPage({
           <CategoryLabel>{category}</CategoryLabel>
         </div>
         <Image
+          height={800}
+          width={1200}
           src={cover_image}
-          alt="cover image"
+          alt=""
           className="w-full rounded"
-          width="100"
-          height="100"
-        ></Image>
+        />
 
         <div className="flex justify-between items-center bg-gray-100 p-2 my-8">
           <div className="flex items-center">
             <Image
+              height={30}
+              width={30}
               src={author_image}
-              alt="authors image"
+              alt=""
               className="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block"
-              width="100"
-              height="100"
-            ></Image>
+            />
             <h4>{author}</h4>
           </div>
           <div className="mr-4">{date}</div>
