@@ -34,7 +34,7 @@ export default function PostPage({
           <div className="flex items-center">
             <Image
               src={author_image}
-              alt="author's image"
+              alt="authors image"
               className="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block"
               width="100"
               height="100"
