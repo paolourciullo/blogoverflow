@@ -35,11 +35,11 @@ export default function Post({ post, compact }) {
             <a className="text-gray-900 hover:text-blue-600">Read More</a>
           </Link>
           <div className="flex items-center">
-            <img
+            <Image
               src={post.frontmatter.author_image}
               className="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block"
               alt="user avatar"
-            />
+            ></Image>
             <h3 className="text-gray-700 font-bold">
               {post.frontmatter.author}
             </h3>
